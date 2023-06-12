@@ -1,10 +1,10 @@
 body {
     font-family: "Lucida sans", sans-serif;
+    background: #f3f3f3;
 }
 .main-content {
-    margin: 4em auto;
-    background: #f7f7f7;
-    box-shadow: 0 1px 35px rgba(0, 0, 0, 0.1);
+    margin: auto auto;
+    background: #f3f3f3;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -158,7 +158,6 @@ body {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    box-shadow: 5px 5px 0 0 #111;
     transform: rotate(-135deg);
     top: 20px;
 }
@@ -241,7 +240,6 @@ body {
     background: transparent;
     border-radius: 50%;
     transform: rotate(-135deg);
-    box-shadow: 4px 4px 0 0 #111;
 }
 .mouth.smile {
     transform: rotate(45deg);
@@ -750,8 +748,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    box-shadow: -8px 20px 0 -25px #f55020;
-    box-shadow: 0 -28px 0 #fff, 0 -56px 0 #ffaec9;
 }
 .item.wand {
     top: 0;
@@ -783,7 +779,6 @@ body {
     overflow-x: hidden;
     height: calc(100%);
     margin: 0 5px 0 0;
-    box-shadow: -3px 0px 50px 1px rgba(0, 0, 0, 0.1);
 }
 .emoji-choices__header {
     background: linear-gradient(to right, rgba(53, 206, 160, 0.4), #f7f7f7);
